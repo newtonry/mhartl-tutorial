@@ -7,8 +7,14 @@ FactoryGirl.define do
     
     factory :admin do
       admin true
-    end
-    
-    
+    end  
   end
+  
+  factory :micropost do
+    content "Random content"
+    user
+  end
+  
+  
+  
 end
